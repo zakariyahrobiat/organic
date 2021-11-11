@@ -1,0 +1,741 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-around;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    gap: 50px;
+}
+
+.logo-container span{
+    color: green;
+
+}
+
+.home-container a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+
+.img-container img{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.product-name{
+    position: absolute;
+    top: 200px;
+    left: 220px;
+    /* line-height: 1.5; */
+    
+}
+
+.product-name p{
+    font-size: 10px;
+    font-weight: 600; 
+}
+
+.product-name .name{
+    color: green;
+    font-size: 50px;
+}
+
+.product-name .fresh{
+    color:rgb(87, 39, 5);
+    font-size: 50px;
+}
+
+.product-name .price{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 2.0;
+    color:orangered;
+}
+
+.product-name button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 12px;
+    width: 90px;
+    height: 20px;
+}
+ .welcome{
+    color:rgb(43, 19, 2) ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px;
+    word-spacing: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body{
+    display: flex;
+    text-align: center;
+    padding: 0px 250px; 
+    gap: 55px;
+    
+}
+
+.body b{
+    line-height: 5.0;
+    
+}
+
+.product{
+    display: flex;
+    padding: 50px 170px;
+}
+
+.product .text{
+    background-color: rgb(244, 241, 250);
+    width: 50%;
+    /* height: 100%; */
+    padding: 50px 50px;
+    line-height: 2.0;
+}
+
+.product .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.product .text h2{
+    color:rgb(87, 39, 5);
+}
+
+.product .text p{
+     font-size: 13px; 
+}
+
+.product .text .order{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.product .text .read{
+    background-color: rgb(244, 241, 250);
+    border-color: green;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: green;
+    /* border: none;  */
+
+}
+
+.product .text .para1{
+    color: green;
+}
+
+section1{
+    text-align: center;
+    line-height: 1.5;
+}
+
+section1 h3{
+    color:rgb(87, 39, 5);
+    margin: 10px; 
+}
+
+.day {
+    display: flex;
+    padding: 20px 150px;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+/*.day .img1 .img2{
+    width: 25%;
+}*/
+
+.day .img1 img{
+    width: 100%;
+}
+.day .text1{
+    width: 100%;
+    line-height: 2.0;
+}
+
+.day .img2 img{
+    width: 80%;
+    height: 150px;
+}
+
+.day .text2{
+    width: 100%;
+    line-height: 2.0;
+
+}
+
+.day .text1 button{
+    background: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.day .text2 button{
+    background: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+
+.box{
+    background-color: green;
+    height: 50px;
+    margin: 0px 150px;
+}
+
+.body-container{
+    display: flex;
+    margin: 0px 150px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.body-container h4{
+    width: 50%;
+    
+}
+
+.body2{
+    display: flex;
+    padding: 0px 150px;
+    gap: 40px;
+}
+
+.body2 .image img{
+    width: 120px;
+    height: 90%;
+}
+.body2 .text{
+    width: 150%;
+    font-size: 13px;
+    line-height: 1.5;
+    height: 50px;
+}
+
+.body2 .image2 img{
+    width: 150px;
+}
+
+.body2 .image3 img{
+    width: 150px;
+
+}
+
+.body2 .image4 img{
+    width: 150px;
+}
+
+.body2 .text button{
+    background: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+
+.body3{
+    display: flex;
+    padding:20px 150px;
+    gap: 40px;
+    
+}
+
+.body3 .image img{
+    width: 120px;
+    /* height: 90%; */
+
+}
+ .body3 .text{
+    width: 150%;
+    font-size: 13px;
+    line-height: 1.5;
+    height: 50px;
+
+ }
+
+ .body3 .image2 img{
+    width: 150px;
+
+ }
+
+ .body3 .image3 img{
+    width: 150px;
+    height: 100px;
+
+ }
+
+ .body3 .image4 img{
+    width: 150px;
+    height: 100px;
+ }
+
+ .body3 .text button{
+    background: green;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+
+.body4{
+    padding:  40px 150px;
+    width: 100%;
+    
+}
+
+.body4 img{
+    width: 100%;
+    height: 400px;
+}
+
+footer{
+    text-align: center;
+    line-height: 3.0;
+}
+
+
+@media(max-width:900px){
+   header{
+        display: flex;
+         padding: 0px 10px; 
+        justify-content: space-around;
+        font-weight: 700;
+        position: absolute;
+        top: 10px;
+        left: 2px;
+        gap: 5px;
+    }
+
+    .home-container a{
+        font-size: 5px;
+        text-decoration: none;
+        padding: 2px;
+        color: black;
+    }
+    .logo-container p{
+        font-size: 8px;
+        padding:  5px;
+    }
+
+    .img-container img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .product-name{
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        /* line-height: 1.5; */
+        
+    }
+    
+    .product-name p{
+        font-size: 5px;
+        
+    }
+    
+    .product-name .name{
+        color: green;
+        font-size: 20px;
+    }
+    
+    .product-name .fresh{
+        color:rgb(87, 39, 5);
+        font-size: 20px;
+    }
+    
+    .product-name .price{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 2.0;
+        color:orangered;
+    }
+    
+    .product-name button{
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 10px;
+        width: 60px;
+        height: 20px;
+    }
+     .welcome{
+        color:rgb(43, 19, 2) ;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 20px;
+        /* word-spacing: 2px; */
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .body{
+        display: flex;
+        text-align: center;
+        padding: 0px 50px; 
+        gap: 10px;
+        
+    }
+    
+    .body b{
+        line-height: 5.0;
+        font-size: 5px;
+        
+    }
+
+    .body p{
+        font-size: 5px;
+    }
+    
+    .product{
+        display: flex;
+         padding: 10px 45px; 
+    }
+    
+    .product .text{
+        background-color: rgb(244, 241, 250);
+        /* width: 50%; */
+        /* height: 100%; */
+        padding: 5px 10px; 
+        /* line-height: 2.0; */
+    }
+    
+    .product .img img{
+        width: 150px;
+        height: 140px;
+        display:block;
+    }
+    
+    .product .text h2{
+        color:rgb(87, 39, 5);
+        font-size: 9px;
+    }
+    
+    .product .text p{
+         font-size: 5px; 
+    }
+    
+    .product .text .order{
+        background-color: green;
+        border: none;
+        padding: 3px;
+        margin: 3px;
+        border-radius: 2px;
+        color: white;
+        font-size:5px;
+    
+    }
+    
+    .product .text .read{
+        background-color: rgb(244, 241, 250);
+        border-color: green;
+        padding:3px;
+        margin: 3px;
+        border-radius: 2px;
+        color: green;
+        font-size:5px;
+        /* border: none;  */
+    
+    }
+    
+    .product .text .para1{
+        color: green;
+    }
+    
+    section1{
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    section1 h3{
+        color:rgb(87, 39, 5);
+        margin: 5px; 
+        font-size:10px ;
+    }
+
+    section1 p{
+        font-size: 5px;
+    }
+    
+    .day {
+        display: flex;
+        padding: 20px 45px;
+        /* justify-content: space-between; */
+        gap: 10px;
+    }
+    
+    .day .img1 {
+        width: 25%;
+    }
+
+    .day .img2{
+        width: 25%;
+    }
+    
+    .day .img1 img{
+        width: 100%;
+        height: 50px;
+    }
+    .day .text1{
+        width: 100%;
+        /* line-height: 2.0; */
+    }
+    .day .text1 h3{
+        font-size: 7px;
+    }
+
+    .day .text1 p{
+        font-size: 5px;
+    }
+    
+    .day .img2 img{
+        width: 100%;
+        height: 50px;
+    }
+    
+    .day .text2{
+        width: 100%;
+        /* line-height: 2.0; */
+    
+    }
+    .day .text2 h3{
+        font-size: 7px;
+    }
+
+    .day .text2 p{
+        font-size: 5px;
+    }
+    
+    .day .text1 button{
+        background: green;
+        color: white;
+        border-radius: 2px;
+        border: none;
+        font-size: 4px;
+         padding: 3px; 
+        
+    }
+    
+    .day .text2 button{
+        background: green;
+        color: white;
+        border-radius: 2px;
+        border: none;
+        font-size:4px;
+         padding: 3px; 
+        
+    }
+    
+    
+    .box{
+        background-color: green;
+        height: 50px;
+        width: 75%;
+        margin: 0px 45px;
+    }
+    
+    .body-container{
+        display: flex;
+        padding: 0px 45px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .body-container h4{
+        width: 50%;
+        font-size: 10px;
+    }
+    
+    .body2{
+        display: flex;
+        padding: 0px 45px;
+        gap: 10px;
+    }
+
+    .body .image {
+        width: 20%;
+    }
+    
+    .body2 .image img{
+        width:35px;
+        height: 40px
+    }
+    .body2 .text{
+        width: 150%;
+        font-size: 5px;
+        line-height: 1.5;
+        height: 50px;
+    }
+
+    .body2 .image2{
+        width: 20%;
+    }
+    
+    .body2 .image2 img{
+        width: 35px;
+        height: 40px;
+    }
+
+    .body2 .image2{
+        width: 20%;
+    }
+    
+    .body2 .image3 img{
+        width: 35px;
+        height: 40px;
+    
+    }
+
+    .body2 .image4{
+        width: 20%;
+    }
+    
+    .body2 .image4 img{
+        width: 35px;
+        height: 40px;
+    }
+    
+    .body2 .text button{
+        background: green;
+        color: white;
+        border-radius: 3px;
+        border: none;
+        font-size: 5px;
+        padding: 5px;
+        margin: 5px 0px;
+    
+    }
+    
+    .body3{
+        display: flex;
+        padding:10px 45px;
+        gap: 10px;
+        
+    }
+
+    .body3 .image{
+        width: 20%;
+    }
+    
+    .body3 .image img{
+        width: 35px;
+        height: 40px; 
+    
+    }
+     .body3 .text{
+        width: 150%;
+        font-size: 5px;
+        line-height: 1.5;
+        height: 50px;
+    
+     }
+
+     .body3 .image2 {
+         width: 20%;
+     }
+    
+     .body3 .image2 img{
+        width: 35px;
+        height: 40px;
+    
+     }
+
+     .body .image3{
+         width: 20%;
+     }
+    
+     .body3 .image3 img{
+        width: 35px;
+        height: 40px;
+    
+     }
+    
+     .body3 .image4{
+         width: 20%;
+     }
+     .body3 .image4 img{
+        width: 35px;
+        height: 40px;
+     }
+    
+     .body3 .text button{
+        background: green;
+        color: white;
+        border-radius: 3px;
+        border: none;
+        font-size: 5px;
+        padding: 5px;
+        margin: 5px 0px;
+    
+    }
+    
+    .body4{
+        padding:  10px 50px;
+        width: 100%;
+        
+    }
+    
+    .body4 img{
+        width: 100%;
+        height: 150px;
+    }
+    
+    footer{
+        text-align: center;
+        line-height: 2.0;
+        padding: 5px 50px;
+    }
+
+    footer p{
+        font-size: 7px;
+    }
+    footer h3{
+        font-size: 10px;
+    }
+    
+    
+}
+
+
